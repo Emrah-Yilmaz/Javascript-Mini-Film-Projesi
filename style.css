@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+input::placeholder{
+    color: blue !important;
+    font-weight: bolder;
+  }
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

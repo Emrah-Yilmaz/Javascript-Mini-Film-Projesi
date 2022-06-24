@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Javascript ile Film Projesi</title>
+  </head>
+  <body class="bg-dark">
+<div class="topbar">
+    <ul class="nav justify-content-center nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">İletişim</a>
+        </li>
+
+      </ul>
+</div>
+<br>
+<form class="form container" id="film-form">   
+  <div class="container">
+    <div class="row g-2" id="form-body">
+      <div class="col-6">
+        <input type="text" class="form-control bg-light" id="title" placeholder="Film Adı">
+
+      </div>
+      <div class="col-6">
+        <input type="text" class="form-control bg-light" id="director" placeholder="Yönetmen">
+      </div>
+      <div class="col-6">
+        <input type="text" class="form-control bg-light" id="time" placeholder="Film Süresi">
+      </div>
+      <div class="col-6">
+        <input type="text" class="form-control bg-light" id="url" placeholder="Afiş">
+      </div>
+        <button class="btn btn-primary container">Kaydet</button>
+      
+
+
+    </div>
+  </div>
+  <br>
+</form>
+
+    <div class="container" id="film-list">
+    
+        <div class="row g-2" id="films">
+          <!-- <div class="col-4"  id="deneme">
+            <div class="p-3 border bg-light" >
+                <div class="card-group">
+                    <div class="card" >
+                      <img src="assets/images/m2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="button">
+                          <a href="#" id="delete-film" class="btn btn-danger container">Filmi Sil</a>
+                        </div>
+                        
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+          
+        </div> -->
+      
+
+
+
+
+
+
+      </div>
+</div>
+<div class="headerhny-right text-lg-right container">
+  <button class="btn btn-danger" id="clear-all">Tümünü Temizle </button>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="film.js"></script>
+    <script src="ui.js"></script>
+    <script src="storage.js"></script>
+    <script src="project.js"></script>
+  </body>
+</html>
